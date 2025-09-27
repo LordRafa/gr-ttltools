@@ -19,7 +19,7 @@ add_subdirectory(bindings)
 ########################################################################
 # Install python sources
 ########################################################################
-gr_python_install(FILES __init__.py DESTINATION ${GR_PYTHON_DIR}/gnuradio/ttltools)
+gr_python_install(FILES __init__.py tpms_qt.py DESTINATION ${GR_PYTHON_DIR}/gnuradio/ttltools)
 
 ########################################################################
 # Handle the unit tests
